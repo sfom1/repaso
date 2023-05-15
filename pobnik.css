@@ -1,0 +1,50 @@
+<style>
+  .image {
+    float: left; /* или right, в зависимости от желаемого выравнивания */
+    margin: 10px; /* добавьте отступы по вашему выбору */
+  }
+</style>
+
+<div class="image">
+  <img src="путь_к_изображению" alt="Описание изображения">
+</div>
+
+<div class="image">
+  <img src="путь_к_изображению" alt="Описание изображения">
+</div>
+-------------------------
+<style>
+  .image {
+    display: inline-block;
+    margin: 10px; /* добавьте отступы по вашему выбору */
+  }
+</style>
+
+<div class="image">
+  <img src="путь_к_изображению" alt="Описание изображения">
+</div>
+
+<div class="image">
+  <img src="путь_к_изображению" alt="Описание изображения">
+</div>
+----------------------------
+<style>
+  .image-container {
+    display: flex;
+    justify-content: center; /* или другие значения, например, flex-start, flex-end */
+  }
+
+  .image {
+    margin: 10px; /* добавьте отступы по вашему выбору */
+  }
+</style>
+
+<div class="image-container">
+  <div class="image">
+    <img src="путь_к_изображению" alt="Описание изображения">
+  </div>
+
+  <div class="image">
+    <img src="путь_к_изображению" alt="Описание изображения">
+  </div>
+</div>

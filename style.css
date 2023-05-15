@@ -1,1 +1,30 @@
+p1.a{
+    float:right
+  }
+p1.b{
+    display: block;
+    margin: 0 auto 0 1000px;
+}
+p1.c{
+    float:left
+  }
+p2.foto1{
+    float:right
+}   
+p2.foto2{
+    display: block;
+    margin: 0 auto 0 1000px;
+}
 
+
+p2.foto3{
+    float:left
+}
+
+
+p3.rojo{
+    color: red;
+}
+p3.last{
+    background-color: yellow;
+}
